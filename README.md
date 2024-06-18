@@ -49,14 +49,10 @@ To run the test :
     ./gradlew clean test
     ```
 ## Example Output
-
-    ```
-   
-   ProducerConsumerTest > testFailureScenario() PASSED
-
-   ProducerConsumerTest > testSuccessfulProcessing() PASSED
-
-    ```
+```
+    ProducerConsumerTest > testFailureScenario() PASSED
+    ProducerConsumerTest > testSuccessfulProcessing() PASSED
+```
 ## Additional Notes
 
 - The `Producer` and `Consumer` classes use a shared `MessageQueue` to demonstrate thread synchronization.
@@ -64,12 +60,12 @@ To run the test :
 - The `ThreadUtil` class provides utility methods for thread operations.
 - The tests ensure that producers and consumers behave correctly under varying conditions.
 - Expected output includes messages indicating successful production and consumption counts.
-- Error handling scenarios are tested to ensure robustness of the application.
+- Error handling scenarios are tested to ensure the robustness of the application.
 
 
 ## Conclusion
 
-This project showcases the producer-consumer pattern in Java, demonstrating thread synchronization and error handling techniques. Thank you for exploring this project!
+This project showcases the producer-consumer pattern in Java, demonstrating thread synchronization and error-handling techniques. Thanks for checking out this project!
 
 
 
