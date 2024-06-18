@@ -8,6 +8,7 @@ a simple message-driven application in core Java that simulates a producer-consu
 - Gradle build tool
 
 ## Project Structure
+```
 
 project-root/
 │
@@ -34,6 +35,7 @@ project-root/
 ├── build.gradle
 └── README.md
 
+```
 
 ## Running the Tests
 
